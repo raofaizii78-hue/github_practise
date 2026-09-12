@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4f7f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.input-group {
+    margin-bottom: 12px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+input[type="text"]:focus {
+    border-color: #007bff;
+}
+
+
+/* Teeno buttons ke liye layout */
+
+.button-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+button {
+    flex: 1;
+    padding: 12px 0;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.1s, background-color 0.2s;
+    color: #fff;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+#enterBtn {
+    background-color: #28a745;
+}
+
+#enterBtn:hover {
+    background-color: #218838;
+}
+
+#updateBtn {
+    background-color: #ffc107;
+    color: #212529;
+}
+
+#updateBtn:hover {
+    background-color: #e0a800;
+}
+
+#deleteBtn {
+    background-color: #dc3545;
+}
+
+#deleteBtn:hover {
+    background-color: #c82333;
+}
+
+.status-msg {
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 15px;
+    min-height: 18px;
+    text-align: center;
+}
+
+.list-container h3 {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    max-height: 250px;
+    overflow-y: auto;
+}
+
+li {
+    padding: 12px;
+    background-color: #f8f9fa;
+    border: 1px solid #e9ecef;
+    border-radius: 6px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    word-break: break-all;
+    transition: all 0.2s;
+}
+
+li:hover {
+    background-color: #e9ecef;
+}
+
+li.selected {
+    background-color: #e7f1ff;
+    border-color: #007bff;
+    font-weight: bold;
+    color: #007bff;
+}

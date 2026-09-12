@@ -1,0 +1,131 @@
+```css * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f6f8;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 450px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 12px;
+}
+
+#dataInput {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    outline: none;
+    font-size: 16px;
+}
+
+#dataInput:focus {
+    border-color: #007bff;
+}
+
+.button-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+button {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#enterBtn {
+    background-color: #28a745;
+    color: white;
+}
+
+#enterBtn:hover {
+    background-color: #218838;
+}
+
+#updateBtn {
+    background-color: #ffc107;
+    color: #212529;
+}
+
+#updateBtn:hover {
+    background-color: #e0a800;
+}
+
+#deleteBtn {
+    background-color: #dc3545;
+    color: white;
+}
+
+#deleteBtn:hover {
+    background-color: #c82333;
+}
+
+.status-msg {
+    min-height: 20px;
+    text-align: center;
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.list-container h3 {
+    color: #555;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+#dataList {
+    list-style: none;
+    max-height: 250px;
+    overflow-y: auto;
+}
+
+#dataList li {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    padding: 12px;
+    border-radius: 6px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    word-break: break-word;
+}
+
+#dataList li:hover {
+    background-color: #e9ecef;
+}
+
+#dataList li.selected {
+    background-color: #e7f1ff;
+    border: 2px solid #007bff;
+    color: #007bff;
+    font-weight: bold;
+}
+
+```

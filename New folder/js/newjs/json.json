@@ -1,0 +1,7 @@
+{
+    "name": "John Doe",
+    "age": 30,
+    "course": "Computer Science",
+    "email": "johndoe@example.com"
+}
+const newobj = JSON.stringify(jsonData);

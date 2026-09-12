@@ -1,0 +1,71 @@
+                                                                        ```css * {
+                                                                            margin: 0;
+                                                                            padding: 0;
+                                                                            box-sizing: border-box;
+                                                                            font-family: Arial, sans-serif;
+                                                                        }
+                                                                        
+                                                                        html,
+                                                                        body {
+                                                                            height: 100%;
+                                                                            width: 100%;
+                                                                        }
+                                                                        
+                                                                        #main {
+                                                                            height: 100%;
+                                                                            width: 100%;
+                                                                            background-color: rgb(67, 165, 165);
+                                                                        }
+                                                                        
+                                                                        #header {
+                                                                            height: 20vh;
+                                                                            width: 100%;
+                                                                            background-color: rgb(167, 230, 200);
+                                                                            position: fixed;
+                                                                            display: flex;
+                                                                            align-items: center;
+                                                                            justify-content: space-around;
+                                                                            margin: 10px;
+                                                                        }
+                                                                        
+                                                                        #logo {
+                                                                            height: 80%;
+                                                                            margin: 10px;
+                                                                        }
+                                                                        
+                                                                        #logo img {
+                                                                            vertical-align: middle;
+                                                                            height: 100%;
+                                                                            width: 100%;
+                                                                            object-fit: cover;
+                                                                        }
+                                                                        
+                                                                        .text {
+                                                                            display: inline-block;
+                                                                            font -size: 16px;
+                                                                        }
+                                                                        
+                                                                        .cone {
+                                                                            vertical-align: middle;
+                                                                            height: 100%;
+                                                                            width: 100%;
+                                                                            object-fit: cover;
+                                                                        }
+                                                                        
+                                                                        #try {
+                                                                            background-colour: rgb(1, 113, 1);
+                                                                            padding: 10 px;
+                                                                            border -radius: 5px;
+                                                                        }
+                                                                        
+                                                                        #page1 {
+                                                                            height: 90vh;
+                                                                            width: 100%;
+                                                                            background-color: rgb(182, 136, 136);
+                                                                        }
+                                                                        
+                                                                        #page2 {
+                                                                            height: 90vh;
+                                                                            width: 100%;
+                                                                            background-color: rgb(148, 148, 188);
+                                                                        }
